@@ -1,0 +1,14 @@
+{
+    "data_dir": "data",
+    "logs_dir": "logs",
+    "log_file": "valutatrade.log",
+    "rates_ttl_seconds": 300,
+    "default_base_currency": "USD",
+    "log_level": "INFO",
+    "log_format": "string",
+    "log_rotation": "size",
+    "log_max_bytes": 1048576,
+    "log_backup_count": 3,
+    "supported_currencies": ["USD", "EUR", "GBP", "RUB", "JPY", "CNY", "BTC", "ETH", "SOL", "ADA", "DOT"],
+    "api_timeout": 10
+}
