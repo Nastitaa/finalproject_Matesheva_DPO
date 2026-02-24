@@ -68,18 +68,29 @@ EXCHANGERATE_API_KEY=ваш_ключ
 По умолчанию курсы считаются свежими в течение 5 минут (300 секунд). Настраивается в `config.json` или через `SettingsLoader`.
 
 
-Примеры:
-  register --username alice --password 1234
-  login --username alice --password 1234
-  buy --currency BTC --amount 0.05
-  sell --currency BTC --amount 0.05
-  sell --currency BCC --amount 0.05
-  show-portfolio
-  get-rate --from BTC --to USD
-  show-rates --top 5
-  scheduler-start
-  update-rates --source coingecko
-  exit
+### Примеры использования команд
+
+```bash
+# Регистрация и вход
+register --username alice --password 1234
+login --username alice --password 1234
+
+# Операции с портфелем
+buy --currency BTC --amount 0.05
+sell --currency BTC --amount 0.05
+sell --currency BCC --amount 0.05
+show-portfolio
+
+# Получение информации о курсах
+get-rate --from BTC --to USD
+show-rates --top 5
+
+# Управление обновлением курсов
+scheduler-start
+update-rates --source coingecko
+
+# Выход из программы
+exit
 
 
   ## 🎥 Демонстрация asciinema
